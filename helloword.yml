@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+  - name: my demo playbook
+    shell: "echo demo playbook is running..."
