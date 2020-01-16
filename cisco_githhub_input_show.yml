@@ -7,7 +7,7 @@
   - name: show commands
     ios_command:
       commands:
-        - "{{ show_commands }]"
+        - "{{ show_commands }}"
     register: output1
 
   - debug:
