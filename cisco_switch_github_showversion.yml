@@ -1,0 +1,18 @@
+---
+- name: Network Getting Started First Playbook
+
+  gather_facts: no
+  hosts: test-routers
+  tasks:
+  - name: show commands
+    ios_command:
+      commands:
+        - terminal length 0
+        - show version
+    register: output1
+
+  - debug:
+      var: output1.stdout_lines
+
+...
+
