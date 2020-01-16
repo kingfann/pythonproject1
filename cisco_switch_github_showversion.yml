@@ -9,6 +9,7 @@
       commands:
         - terminal length 0
         - show version
+        - show int description
     register: output1
 
   - debug:
