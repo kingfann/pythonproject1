@@ -7,7 +7,7 @@ router1 = {
     'ip': '192.168.10.2',
     'username': 'test',
     'password': 'test123',
-#     'port': '22',
+    'port': '22',
     'secret': 'test1234',
     'verbose': True
 }
@@ -17,7 +17,7 @@ router2 = {
     'ip': '10.0.0.2',
     'username': 'test',
     'password': 'test123',
-#     'port': '22',
+    'port': '22',
     'secret': 'test1234',
     'verbose': True
 }
